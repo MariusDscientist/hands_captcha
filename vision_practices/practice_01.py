@@ -2,9 +2,8 @@ import cv2
 import mediapipe as mp
 from mediapipe.tasks import python
 from mediapipe.tasks.python import vision
-# 1. IMPORTAR EXPLÍCITAMENTE LAS CONEXIONES DE LA MANO
 import numpy as np
-import numpy.typing as npt  # <- Esta línea soluciona tu error
+import numpy.typing as npt
 import itertools
 import tqdm
 import rerun as rr
