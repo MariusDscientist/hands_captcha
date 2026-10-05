@@ -1,0 +1,18 @@
+# MediaPipe model assets
+*.task
+gesture_recognizer.task
+hand_landmarker.task
+
+# Virtual environments
+/.venv/
+env/
+venv/
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Agent guidelines
+AGENTS.md
+agents.md
