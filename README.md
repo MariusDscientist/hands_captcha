@@ -1,4 +1,4 @@
-# 🖐️ Air-Draw CAPTCHA
+# 🖐️ Hands CAPTCHA
 
 > **Sistema de verificación de presencia humana basado en trazado gestual en el aire y validación mediante redes neuronales.**
 
@@ -9,6 +9,7 @@
 El objetivo de este proyecto es construir un **sistema de CAPTCHA interactivo** en el que un usuario demuestra ser humano dibujando en el aire una secuencia de **4 dígitos aleatorios** solicitados por la pantalla, usando únicamente la punta de su dedo índice frente a su cámara web.
 
 Una vez trazados los números:
+
 1. Las trayectorias se segmentan y procesan en imágenes de trazo normalizadas.
 2. Una **red neuronal** clasifica los dígitos ingresados.
 3. El sistema valida si los dígitos dibujados coinciden con el token propuesto para conceder el acceso.
@@ -77,9 +78,9 @@ Antes de integrar el sistema completo, este directorio alberga tutoriales y prue
 
 ## 🚀 Hoja de Ruta (Roadmap)
 
-- [x] **Fase 0: Exploración y Setup**
-  - [x] Configuración de entorno y dependencias.
-  - [x] Práctica 01: Detección de gestos y landmarks con MediaPipe + Rerun.
+- [X] **Fase 0: Exploración y Setup**
+  - [X] Configuración de entorno y dependencias.
+  - [X] Práctica 01: Detección de gestos y landmarks con MediaPipe + Rerun.
 - [ ] **Fase 1: Trazador Aéreo (Air-Drawing)**
   - [ ] Tracking exclusivo del índice (`INDEX_FINGER_TIP`).
   - [ ] Lógica de activación de trazo (e.g. gesto de "escribir" vs "pausa/desplazar").
