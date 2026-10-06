@@ -1,3 +1,7 @@
+"""
+📖 Tutorial de Medium que tomé como referencia (MediaPipe + Rerun):
+https://medium.com/data-science/real-time-hand-tracking-and-gesture-recognition-with-mediapipe-rerun-showcase-9ec57cb0c831
+"""
 import cv2
 import mediapipe as mp
 from mediapipe.tasks import python
