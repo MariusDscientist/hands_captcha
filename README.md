@@ -54,15 +54,11 @@ Este repositorio es un **laboratorio personal de estudio y experimentación**. E
 
 ---
 
-## 🧪 Prácticas de Laboratorio (`vision_practices/`)
+## 🧪 Prácticas de Laboratorio
 
-Antes de integrar el sistema completo, este directorio alberga tutoriales y pruebas de concepto para dominar las herramientas involucradas:
+El directorio [`vision_practices/`](file:///home/jhon-mario-cano-torres/Desktop/workspace/vision_practice/vision_practices/) reúne los experimentos y pruebas de concepto previas a la integración del core del proyecto (detección de gestos, tracking multimanual, telemetría y audio interactivo).
 
-- **`practice_01.py` — Introducción a MediaPipe Gesture Recognition & Rerun**:
-  - Inicialización del modelo `GestureRecognizer` con `mediapipe.tasks`.
-  - Procesamiento frame a frame desde cámara web (`RunningMode.VIDEO` con marcas de tiempo en nanosegundos).
-  - Conversión de coordenadas normalizadas a píxeles de imagen.
-  - Logging y visualización en tiempo real de puntos articulares (landmarks) y conexiones de la mano usando **Rerun SDK**.
+Consulta la documentación detallada de cada práctica en el [README del Laboratorio](file:///home/jhon-mario-cano-torres/Desktop/workspace/vision_practice/vision_practices/README.md).
 
 ---
 
